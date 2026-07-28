@@ -1,14 +1,14 @@
 class Student:
-    college = "ABC College"   # Class Variable
+    college = "MIT ADT"      # Class Variable
 
-    def __init__(self, name):
-        self.name = name      # Instance Variable
+    def __init__(self):
+        self.name = "Aakshad"    # Instance Variable
 
     def display(self):
-        marks = 90            # Local Variable
+        income = 50000       # Local Variable
         print("Name:", self.name)
         print("College:", Student.college)
-        print("Marks:", marks)
+        print("Income:", income)
 
-s1 = Student("Rahul")
-s1.display()
+s = Student()
+s.display()
