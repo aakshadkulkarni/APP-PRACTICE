@@ -4,8 +4,8 @@ class Student:
         self.college = "MIT ADT"
 
     def display(self):
-        print("Name:", self.name)
-        print("College:", self.college)
+        print(self.name)
+        print(self.college)
 
 s = Student()
 s.display()
