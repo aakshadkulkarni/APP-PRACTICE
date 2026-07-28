@@ -1,21 +1,22 @@
+
 class Student:
     college = "MIT ADT"
 
     def __init__(self):
         self.name = "Aakshad"
 
-    def instance_method(self):
-        print("Student Name:", self.name)
+    def show(self):
+        print("Name:", self.name)
 
     @classmethod
-    def class_method(cls):
+    def college_name(cls):
         print("College:", cls.college)
 
     @staticmethod
-    def static_method():
-        print("Welcome to Python Practical")
+    def message():
+        print("Welcome to MIT ADT")
 
 s = Student()
-s.instance_method()
-Student.class_method()
-Student.static_method()
+s.show()
+Student.college_name()
+Student.message()
